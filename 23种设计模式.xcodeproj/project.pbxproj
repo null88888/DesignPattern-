@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77B96FD42535A02D00818A5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FD32535A02D00818A5B /* main.m */; };
+		77B96FE22535A1BE00818A5B /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FE12535A1BE00818A5B /* SimpleFactory.m */; };
+		77B96FE72535A20F00818A5B /* Cola.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FE62535A20F00818A5B /* Cola.m */; };
+		77B96FEB2535A24300818A5B /* CocaCola.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FEA2535A24300818A5B /* CocaCola.m */; };
+		77B96FEF2535A27500818A5B /* PesiCola.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FEE2535A27500818A5B /* PesiCola.m */; };
+		77B96FF32535A4E900818A5B /* SimpleFactoryPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B96FF22535A4E900818A5B /* SimpleFactoryPattern.m */; };
+		77B970032535AC4200818A5B /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970022535AC4200818A5B /* Factory.m */; };
+		77B970082535ACC100818A5B /* CocaColaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970072535ACC100818A5B /* CocaColaFactory.m */; };
+		77B9700C2535ACD200818A5B /* PesiColaFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9700B2535ACD200818A5B /* PesiColaFactory.m */; };
+		77B970102535AD9700818A5B /* FactoryMethodPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9700F2535AD9700818A5B /* FactoryMethodPattern.m */; };
+		77B970162535B0DB00818A5B /* Bottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970152535B0DB00818A5B /* Bottle.m */; };
+		77B9701A2535B0EC00818A5B /* CocaColaBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970192535B0EC00818A5B /* CocaColaBottle.m */; };
+		77B9701E2535B0FA00818A5B /* PesiColaBottle.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9701D2535B0FA00818A5B /* PesiColaBottle.m */; };
+		77B970222535B13100818A5B /* Box.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970212535B13100818A5B /* Box.m */; };
+		77B970262535B14800818A5B /* CocaColaBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970252535B14800818A5B /* CocaColaBox.m */; };
+		77B9702A2535B15A00818A5B /* PesiColaBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970292535B15A00818A5B /* PesiColaBox.m */; };
+		77B9702E2535BF1100818A5B /* AbstractFactoryPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9702D2535BF1100818A5B /* AbstractFactoryPattern.m */; };
+		77B970342535C0FF00818A5B /* Builder.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970332535C0FF00818A5B /* Builder.m */; };
+		77B970392535C13B00818A5B /* BuilderPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970382535C13B00818A5B /* BuilderPattern.m */; };
+		77B9703E2535C29700818A5B /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9703D2535C29700818A5B /* Singleton.m */; };
+		77B970432535C34100818A5B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970422535C34100818A5B /* Student.m */; };
+		77B970482535C37E00818A5B /* PrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970472535C37E00818A5B /* PrototypePattern.m */; };
+		77B9704D2535C4C800818A5B /* Tea.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9704C2535C4C800818A5B /* Tea.m */; };
+		77B970522535C4E700818A5B /* BlackTea.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970512535C4E700818A5B /* BlackTea.m */; };
+		77B970562535C54200818A5B /* DecoratorPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B970552535C54200818A5B /* DecoratorPattern.m */; };
+		77B9705C2535C74100818A5B /* FacadePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B9705B2535C74100818A5B /* FacadePattern.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		77B96FCE2535A02D00818A5B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		77B96FD02535A02D00818A5B /* 23种设计模式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "23种设计模式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77B96FD32535A02D00818A5B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77B96FE02535A1BE00818A5B /* SimpleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactory.h; sourceTree = "<group>"; };
+		77B96FE12535A1BE00818A5B /* SimpleFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactory.m; sourceTree = "<group>"; };
+		77B96FE52535A20F00818A5B /* Cola.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cola.h; sourceTree = "<group>"; };
+		77B96FE62535A20F00818A5B /* Cola.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cola.m; sourceTree = "<group>"; };
+		77B96FE92535A24300818A5B /* CocaCola.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocaCola.h; sourceTree = "<group>"; };
+		77B96FEA2535A24300818A5B /* CocaCola.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocaCola.m; sourceTree = "<group>"; };
+		77B96FED2535A27500818A5B /* PesiCola.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PesiCola.h; sourceTree = "<group>"; };
+		77B96FEE2535A27500818A5B /* PesiCola.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PesiCola.m; sourceTree = "<group>"; };
+		77B96FF12535A4E900818A5B /* SimpleFactoryPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleFactoryPattern.h; sourceTree = "<group>"; };
+		77B96FF22535A4E900818A5B /* SimpleFactoryPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryPattern.m; sourceTree = "<group>"; };
+		77B96FF92535A71800818A5B /* 设计模式.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "设计模式.docx"; sourceTree = "<group>"; };
+		77B96FFA2535A8AA00818A5B /* CreationalPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreationalPattern.h; sourceTree = "<group>"; };
+		77B96FFE2535A9B200818A5B /* BehavioralPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BehavioralPattern.h; sourceTree = "<group>"; };
+		77B96FFF2535AA2B00818A5B /* StructuralPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StructuralPattern.h; sourceTree = "<group>"; };
+		77B970002535ABC500818A5B /* Pattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pattern.h; sourceTree = "<group>"; };
+		77B970012535AC4200818A5B /* Factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		77B970022535AC4200818A5B /* Factory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
+		77B970062535ACC100818A5B /* CocaColaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocaColaFactory.h; sourceTree = "<group>"; };
+		77B970072535ACC100818A5B /* CocaColaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocaColaFactory.m; sourceTree = "<group>"; };
+		77B9700A2535ACD200818A5B /* PesiColaFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PesiColaFactory.h; sourceTree = "<group>"; };
+		77B9700B2535ACD200818A5B /* PesiColaFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PesiColaFactory.m; sourceTree = "<group>"; };
+		77B9700E2535AD9700818A5B /* FactoryMethodPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryMethodPattern.h; sourceTree = "<group>"; };
+		77B9700F2535AD9700818A5B /* FactoryMethodPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodPattern.m; sourceTree = "<group>"; };
+		77B970142535B0DB00818A5B /* Bottle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bottle.h; sourceTree = "<group>"; };
+		77B970152535B0DB00818A5B /* Bottle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Bottle.m; sourceTree = "<group>"; };
+		77B970182535B0EC00818A5B /* CocaColaBottle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocaColaBottle.h; sourceTree = "<group>"; };
+		77B970192535B0EC00818A5B /* CocaColaBottle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocaColaBottle.m; sourceTree = "<group>"; };
+		77B9701C2535B0FA00818A5B /* PesiColaBottle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PesiColaBottle.h; sourceTree = "<group>"; };
+		77B9701D2535B0FA00818A5B /* PesiColaBottle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PesiColaBottle.m; sourceTree = "<group>"; };
+		77B970202535B13100818A5B /* Box.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Box.h; sourceTree = "<group>"; };
+		77B970212535B13100818A5B /* Box.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Box.m; sourceTree = "<group>"; };
+		77B970242535B14800818A5B /* CocaColaBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CocaColaBox.h; sourceTree = "<group>"; };
+		77B970252535B14800818A5B /* CocaColaBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CocaColaBox.m; sourceTree = "<group>"; };
+		77B970282535B15A00818A5B /* PesiColaBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PesiColaBox.h; sourceTree = "<group>"; };
+		77B970292535B15A00818A5B /* PesiColaBox.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PesiColaBox.m; sourceTree = "<group>"; };
+		77B9702C2535BF1100818A5B /* AbstractFactoryPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactoryPattern.h; sourceTree = "<group>"; };
+		77B9702D2535BF1100818A5B /* AbstractFactoryPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactoryPattern.m; sourceTree = "<group>"; };
+		77B970322535C0FF00818A5B /* Builder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Builder.h; sourceTree = "<group>"; };
+		77B970332535C0FF00818A5B /* Builder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Builder.m; sourceTree = "<group>"; };
+		77B970372535C13B00818A5B /* BuilderPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderPattern.h; sourceTree = "<group>"; };
+		77B970382535C13B00818A5B /* BuilderPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderPattern.m; sourceTree = "<group>"; };
+		77B9703C2535C29700818A5B /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		77B9703D2535C29700818A5B /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		77B970412535C34100818A5B /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		77B970422535C34100818A5B /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		77B970462535C37E00818A5B /* PrototypePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePattern.h; sourceTree = "<group>"; };
+		77B970472535C37E00818A5B /* PrototypePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePattern.m; sourceTree = "<group>"; };
+		77B9704B2535C4C800818A5B /* Tea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tea.h; sourceTree = "<group>"; };
+		77B9704C2535C4C800818A5B /* Tea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tea.m; sourceTree = "<group>"; };
+		77B970502535C4E700818A5B /* BlackTea.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackTea.h; sourceTree = "<group>"; };
+		77B970512535C4E700818A5B /* BlackTea.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackTea.m; sourceTree = "<group>"; };
+		77B970542535C54200818A5B /* DecoratorPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DecoratorPattern.h; sourceTree = "<group>"; };
+		77B970552535C54200818A5B /* DecoratorPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecoratorPattern.m; sourceTree = "<group>"; };
+		77B9705A2535C74100818A5B /* FacadePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FacadePattern.h; sourceTree = "<group>"; };
+		77B9705B2535C74100818A5B /* FacadePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacadePattern.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77B96FCD2535A02D00818A5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77B96FC72535A02D00818A5B = {
+			isa = PBXGroup;
+			children = (
+				77B96FD22535A02D00818A5B /* 23种设计模式 */,
+				77B96FD12535A02D00818A5B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77B96FD12535A02D00818A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77B96FD02535A02D00818A5B /* 23种设计模式 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77B96FD22535A02D00818A5B /* 23种设计模式 */ = {
+			isa = PBXGroup;
+			children = (
+				77B96FFD2535A97700818A5B /* 行为型(Behavioral Pattern) */,
+				77B96FFC2535A95000818A5B /* 结构型(Structural Pattern) */,
+				77B96FDB2535A09300818A5B /* 创建型(Creational Pattern) */,
+				77B96FD32535A02D00818A5B /* main.m */,
+				77B96FF92535A71800818A5B /* 设计模式.docx */,
+				77B970002535ABC500818A5B /* Pattern.h */,
+			);
+			path = "23种设计模式";
+			sourceTree = "<group>";
+		};
+		77B96FDB2535A09300818A5B /* 创建型(Creational Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B970402535C32D00818A5B /* 6原型模式（Prototype Pattern） */,
+				77B970312535C0D100818A5B /* 5 生成器模式(Builder Pattern) */,
+				77B9703B2535C27500818A5B /* 4单例模式(Singleton Pattern) */,
+				77B970122535B02B00818A5B /* 3抽象工厂模式(Abstract Factory Pattern) */,
+				77B96FFB2535A91300818A5B /* 2工厂方法模式（Factory Method Pattern） */,
+				77B96FDC2535A0BA00818A5B /* 1简单工厂模式（Simple Factory Pattern） */,
+				77B96FFA2535A8AA00818A5B /* CreationalPattern.h */,
+			);
+			path = "创建型(Creational Pattern)";
+			sourceTree = "<group>";
+		};
+		77B96FDC2535A0BA00818A5B /* 1简单工厂模式（Simple Factory Pattern） */ = {
+			isa = PBXGroup;
+			children = (
+				77B96FE02535A1BE00818A5B /* SimpleFactory.h */,
+				77B96FE12535A1BE00818A5B /* SimpleFactory.m */,
+				77B96FE52535A20F00818A5B /* Cola.h */,
+				77B96FE62535A20F00818A5B /* Cola.m */,
+				77B96FE92535A24300818A5B /* CocaCola.h */,
+				77B96FEA2535A24300818A5B /* CocaCola.m */,
+				77B96FED2535A27500818A5B /* PesiCola.h */,
+				77B96FEE2535A27500818A5B /* PesiCola.m */,
+				77B96FF12535A4E900818A5B /* SimpleFactoryPattern.h */,
+				77B96FF22535A4E900818A5B /* SimpleFactoryPattern.m */,
+			);
+			path = "1简单工厂模式（Simple Factory Pattern）";
+			sourceTree = "<group>";
+		};
+		77B96FFB2535A91300818A5B /* 2工厂方法模式（Factory Method Pattern） */ = {
+			isa = PBXGroup;
+			children = (
+				77B970012535AC4200818A5B /* Factory.h */,
+				77B970022535AC4200818A5B /* Factory.m */,
+				77B970062535ACC100818A5B /* CocaColaFactory.h */,
+				77B970072535ACC100818A5B /* CocaColaFactory.m */,
+				77B9700A2535ACD200818A5B /* PesiColaFactory.h */,
+				77B9700B2535ACD200818A5B /* PesiColaFactory.m */,
+				77B9700E2535AD9700818A5B /* FactoryMethodPattern.h */,
+				77B9700F2535AD9700818A5B /* FactoryMethodPattern.m */,
+			);
+			path = "2工厂方法模式（Factory Method Pattern）";
+			sourceTree = "<group>";
+		};
+		77B96FFC2535A95000818A5B /* 结构型(Structural Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B970582535C64700818A5B /* 2外观模式(Facade Pattern) */,
+				77B9704A2535C42400818A5B /* 1装饰模式(Decorator Pattern) */,
+				77B96FFF2535AA2B00818A5B /* StructuralPattern.h */,
+			);
+			path = "结构型(Structural Pattern)";
+			sourceTree = "<group>";
+		};
+		77B96FFD2535A97700818A5B /* 行为型(Behavioral Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B96FFE2535A9B200818A5B /* BehavioralPattern.h */,
+			);
+			path = "行为型(Behavioral Pattern)";
+			sourceTree = "<group>";
+		};
+		77B970122535B02B00818A5B /* 3抽象工厂模式(Abstract Factory Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B970142535B0DB00818A5B /* Bottle.h */,
+				77B970152535B0DB00818A5B /* Bottle.m */,
+				77B970182535B0EC00818A5B /* CocaColaBottle.h */,
+				77B970192535B0EC00818A5B /* CocaColaBottle.m */,
+				77B9701C2535B0FA00818A5B /* PesiColaBottle.h */,
+				77B9701D2535B0FA00818A5B /* PesiColaBottle.m */,
+				77B970202535B13100818A5B /* Box.h */,
+				77B970212535B13100818A5B /* Box.m */,
+				77B970242535B14800818A5B /* CocaColaBox.h */,
+				77B970252535B14800818A5B /* CocaColaBox.m */,
+				77B970282535B15A00818A5B /* PesiColaBox.h */,
+				77B970292535B15A00818A5B /* PesiColaBox.m */,
+				77B9702C2535BF1100818A5B /* AbstractFactoryPattern.h */,
+				77B9702D2535BF1100818A5B /* AbstractFactoryPattern.m */,
+			);
+			path = "3抽象工厂模式(Abstract Factory Pattern)";
+			sourceTree = "<group>";
+		};
+		77B970312535C0D100818A5B /* 5 生成器模式(Builder Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B970322535C0FF00818A5B /* Builder.h */,
+				77B970332535C0FF00818A5B /* Builder.m */,
+				77B970372535C13B00818A5B /* BuilderPattern.h */,
+				77B970382535C13B00818A5B /* BuilderPattern.m */,
+			);
+			path = "5 生成器模式(Builder Pattern)";
+			sourceTree = "<group>";
+		};
+		77B9703B2535C27500818A5B /* 4单例模式(Singleton Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B9703C2535C29700818A5B /* Singleton.h */,
+				77B9703D2535C29700818A5B /* Singleton.m */,
+			);
+			path = "4单例模式(Singleton Pattern)";
+			sourceTree = "<group>";
+		};
+		77B970402535C32D00818A5B /* 6原型模式（Prototype Pattern） */ = {
+			isa = PBXGroup;
+			children = (
+				77B970412535C34100818A5B /* Student.h */,
+				77B970422535C34100818A5B /* Student.m */,
+				77B970462535C37E00818A5B /* PrototypePattern.h */,
+				77B970472535C37E00818A5B /* PrototypePattern.m */,
+			);
+			path = "6原型模式（Prototype Pattern）";
+			sourceTree = "<group>";
+		};
+		77B9704A2535C42400818A5B /* 1装饰模式(Decorator Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B9704B2535C4C800818A5B /* Tea.h */,
+				77B9704C2535C4C800818A5B /* Tea.m */,
+				77B970502535C4E700818A5B /* BlackTea.h */,
+				77B970512535C4E700818A5B /* BlackTea.m */,
+				77B970542535C54200818A5B /* DecoratorPattern.h */,
+				77B970552535C54200818A5B /* DecoratorPattern.m */,
+			);
+			path = "1装饰模式(Decorator Pattern)";
+			sourceTree = "<group>";
+		};
+		77B970582535C64700818A5B /* 2外观模式(Facade Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				77B9705A2535C74100818A5B /* FacadePattern.h */,
+				77B9705B2535C74100818A5B /* FacadePattern.m */,
+			);
+			path = "2外观模式(Facade Pattern)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77B96FCF2535A02D00818A5B /* 23种设计模式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77B96FD72535A02D00818A5B /* Build configuration list for PBXNativeTarget "23种设计模式" */;
+			buildPhases = (
+				77B96FCC2535A02D00818A5B /* Sources */,
+				77B96FCD2535A02D00818A5B /* Frameworks */,
+				77B96FCE2535A02D00818A5B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "23种设计模式";
+			productName = "23种设计模式";
+			productReference = 77B96FD02535A02D00818A5B /* 23种设计模式 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77B96FC82535A02D00818A5B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					77B96FCF2535A02D00818A5B = {
+						CreatedOnToolsVersion = 12.0.1;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = 77B96FCB2535A02D00818A5B /* Build configuration list for PBXProject "23种设计模式" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77B96FC72535A02D00818A5B;
+			productRefGroup = 77B96FD12535A02D00818A5B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77B96FCF2535A02D00818A5B /* 23种设计模式 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77B96FCC2535A02D00818A5B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77B970392535C13B00818A5B /* BuilderPattern.m in Sources */,
+				77B96FE72535A20F00818A5B /* Cola.m in Sources */,
+				77B9702A2535B15A00818A5B /* PesiColaBox.m in Sources */,
+				77B970082535ACC100818A5B /* CocaColaFactory.m in Sources */,
+				77B9705C2535C74100818A5B /* FacadePattern.m in Sources */,
+				77B970522535C4E700818A5B /* BlackTea.m in Sources */,
+				77B9701A2535B0EC00818A5B /* CocaColaBottle.m in Sources */,
+				77B970482535C37E00818A5B /* PrototypePattern.m in Sources */,
+				77B970102535AD9700818A5B /* FactoryMethodPattern.m in Sources */,
+				77B9700C2535ACD200818A5B /* PesiColaFactory.m in Sources */,
+				77B970162535B0DB00818A5B /* Bottle.m in Sources */,
+				77B970562535C54200818A5B /* DecoratorPattern.m in Sources */,
+				77B96FD42535A02D00818A5B /* main.m in Sources */,
+				77B9703E2535C29700818A5B /* Singleton.m in Sources */,
+				77B96FEB2535A24300818A5B /* CocaCola.m in Sources */,
+				77B970432535C34100818A5B /* Student.m in Sources */,
+				77B970342535C0FF00818A5B /* Builder.m in Sources */,
+				77B96FF32535A4E900818A5B /* SimpleFactoryPattern.m in Sources */,
+				77B9702E2535BF1100818A5B /* AbstractFactoryPattern.m in Sources */,
+				77B970222535B13100818A5B /* Box.m in Sources */,
+				77B96FEF2535A27500818A5B /* PesiCola.m in Sources */,
+				77B970262535B14800818A5B /* CocaColaBox.m in Sources */,
+				77B9701E2535B0FA00818A5B /* PesiColaBottle.m in Sources */,
+				77B96FE22535A1BE00818A5B /* SimpleFactory.m in Sources */,
+				77B9704D2535C4C800818A5B /* Tea.m in Sources */,
+				77B970032535AC4200818A5B /* Factory.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		77B96FD52535A02D00818A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		77B96FD62535A02D00818A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		77B96FD82535A02D00818A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZQFZQUSR5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "23种设计模式/创建型(Creational Pattern)/1简单工厂模式（Simple Factory Pattern）/23种设计模式-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		77B96FD92535A02D00818A5B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9ZQFZQUSR5;
+				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "23种设计模式/创建型(Creational Pattern)/1简单工厂模式（Simple Factory Pattern）/23种设计模式-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77B96FCB2535A02D00818A5B /* Build configuration list for PBXProject "23种设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B96FD52535A02D00818A5B /* Debug */,
+				77B96FD62535A02D00818A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77B96FD72535A02D00818A5B /* Build configuration list for PBXNativeTarget "23种设计模式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77B96FD82535A02D00818A5B /* Debug */,
+				77B96FD92535A02D00818A5B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77B96FC82535A02D00818A5B /* Project object */;
+}
